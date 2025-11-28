@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: qwerty}
 layers:
   Base:
-  - SEARCH
+  - TAB
   - Q
   - W
   - E
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - L_BASE L_GAME
-  - TAB
-  - {t: A, h: LCMD}
-  - {t: S, h: LALT}
-  - {t: D, h: LSHFT}
-  - {t: F, h: LCTRL}
+  - BACK SPACE
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RCTRL}
-  - {t: K, h: RSHFT}
-  - {t: L, h: LALT}
-  - {t: ;, h: RCMD}
-  - DEL
-  - CLIP HIST
+  - J
+  - K
+  - L
+  - ;
+  - {t: Xtra, h: sticky}
+  - LSHIFT
   - Z
   - X
   - C
@@ -33,57 +33,57 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: ;}
-  - {t: ., s: ':'}
-  - {t: '?', s: '!'}
+  - ','
+  - .
   - /
-  - ESC SCRL SLOW
-  - SYM LCLK
-  - BS NUM
-  - ENTER
-  - SPACE NAV
+  - RSHIFT
+  - LEFT CONTROL
+  - {t: Num, h: toggle}
+  - {t: SPACE, h: LEFT SHIFT}
+  - {t: ENTER, h: Game}
+  - BSPC
   Num:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - +
-  - {t: '7', s: F7}
-  - {t: '8', s: F8}
-  - {t: '9', s: F9}
-  - {t: '%', s: F10}
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - BACK SPACE
-  - LSHIFT
-  - '-'
-  - {t: '4', s: F4}
-  - {t: '5', s: F5}
-  - {t: '6', s: F6}
-  - {t: '*', s: F11}
-  - ''
-  - ''
-  - ''
-  - X
-  - ''
-  - ''
-  - ''
-  - '='
-  - {t: '1', s: F1}
-  - {t: '2', s: F2}
-  - {t: '3', s: F3}
-  - {t: ., s: F12}
-  - /
-  - ''
-  - ''
-  - {t: ▽, type: trans}
+  - TAB
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
   - '0'
-  - SPACE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
   Nav:
   - ''
   - WHEEL L
@@ -91,11 +91,11 @@ layers:
   - ''
   - WHEEL U
   - WHEEL R
-  - TMUX DETCH
-  - TMUX ATTCH
-  - TMUX NEXT
-  - TMUX SESH
-  - TMUX SYNC
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - TAB
   - BACK
@@ -103,7 +103,7 @@ layers:
   - LSHFT
   - LCTRL
   - FWD
-  - HSPLIT
+  - ''
   - LEFT
   - DOWN
   - UP
@@ -115,7 +115,7 @@ layers:
   - MOVE UP
   - MOVE R
   - ''
-  - VSPLIT
+  - ''
   - HOME
   - PG DN
   - PG UP
@@ -125,48 +125,6 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  Sym:
-  - ''
-  - '~'
-  - $
-  - ^
-  - '&move_line_up'
-  - '&mc_add_above'
-  - '&'
-  - +
-  - '['
-  - ']'
-  - '%'
-  - \
-  - ''
-  - _
-  - <
-  - '>'
-  - BACK SPACE
-  - '&delete_line'
-  - '`'
-  - '-'
-  - (
-  - )
-  - '*'
-  - '|'
-  - ''
-  - ~/
-  - ''
-  - '#'
-  - '&move_line_down'
-  - '&mc_add_below'
-  - '```'
-  - '='
-  - '{'
-  - '}'
-  - '@'
-  - /
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Game:
   - '1'
@@ -208,13 +166,13 @@ layers:
   - ''
   - SPACE
   - LEFT ALT
-  - ''
+  - {type: held}
   - ''
   Xtra:
   - ZMK Studio
-  - SHRUG
-  - LGTM
-  - GIT COMMIT
+  - ''
+  - ''
+  - ''
   - ''
   - BRIGHT ▲
   - {t: BT, h: '0'}
@@ -224,7 +182,7 @@ layers:
   - OUT TOG
   - BT CLR
   - SLEEP
-  - sudo!!
+  - ''
   - ''
   - ''
   - ''
@@ -234,14 +192,14 @@ layers:
   - PLAY PAUSE
   - STOP
   - NEXT
-  - ''
+  - {type: held}
   - LOCK
   - UNDO
   - CUT
   - COPY
   - PASTE
   - ''
-  - NEW DIR
+  - ''
   - MUTE
   - VOLUME DOWN
   - VOLUME UP
@@ -336,7 +294,60 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - L CLK
+  - Mid CLK
+  - L CLK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
+- p: [17, 18]
+  k: CAPS WORD
+  l: [Base]
+- p: [38, 39]
+  k: L_BASE L_EXTRA
+- p: [25, 26]
+  k: L CLK
+- p: [26, 27]
+  k: Mid CLK
+- p: [27, 28]
+  k: R CLK
 - p: [17, 18]
   k: CAPS WORD
   l: [Base]
