@@ -2,8 +2,8 @@
 #include <dt-bindings/zmk/input_transform.h>
 
 &trackball_listener {
-    /* Базовый процессор для всех слоев + auto mouse */
-    input-processors = <&auto_mouse>, <&zip_xy_scaler 5 5>;
+    /* base processor chain on all layers */
+    input-processors = <&zip_xy_scaler 5 5>;
 
     /* layer-8 scroll override */
     scroller: scroller {
