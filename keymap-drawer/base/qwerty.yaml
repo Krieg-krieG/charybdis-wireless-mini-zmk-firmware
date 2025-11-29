@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACK SPACE
+  - RIGHT ALT
   - LCTRL
   - A
   - S
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - ;
-  - {t: Xtra, h: sticky}
+  - ''''
   - LSHIFT
   - Z
   - X
@@ -36,9 +36,9 @@ layers:
   - ','
   - .
   - /
-  - RSHIFT
-  - LEFT CONTROL
-  - {t: Num, h: toggle}
+  - {t: Xtra, h: sticky}
+  - {t: ESCAPE, h: LEFT CONTROL}
+  - Num
   - {t: SPACE, h: LEFT SHIFT}
   - {t: ENTER, h: Game}
   - BSPC
@@ -80,7 +80,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -130,11 +130,11 @@ layers:
   - '1'
   - TAB
   - Q
-  - W
-  - E
-  - R
-  - ''
-  - ''
+  - '{'
+  - '}'
+  - '|'
+  - '`'
+  - '~'
   - ''
   - ''
   - ''
@@ -142,11 +142,11 @@ layers:
   - '2'
   - LCTRL
   - A
-  - S
-  - D
-  - F
-  - ''
-  - ''
+  - (
+  - )
+  - ':'
+  - '-'
+  - '='
   - ''
   - ''
   - ''
@@ -154,9 +154,9 @@ layers:
   - '3'
   - LSHFT
   - Y
-  - X
-  - C
-  - V
+  - '['
+  - ']'
+  - '?'
   - ''
   - ''
   - ''
@@ -192,7 +192,7 @@ layers:
   - PLAY PAUSE
   - STOP
   - NEXT
-  - {type: held}
+  - ''
   - LOCK
   - UNDO
   - CUT
@@ -204,7 +204,7 @@ layers:
   - VOLUME DOWN
   - VOLUME UP
   - PRINT SCREEN
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -294,6 +294,48 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  mouse:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - L CLK
+  - Mid CLK
+  - L CLK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [17, 18]
   k: CAPS WORD
@@ -306,3 +348,16 @@ combos:
   k: Mid CLK
 - p: [27, 28]
   k: R CLK
+- p: [17, 18]
+  k: CAPS WORD
+  l: [Base]
+- p: [38, 39]
+  k: L_BASE L_EXTRA
+- p: [16, 15]
+  k: L CLK
+- p: [14, 15]
+  k: Mid CLK
+- p: [14, 13]
+  k: R CLK
+- p: [19, 20]
+  k: RIGHT ALT
