@@ -212,7 +212,7 @@ layers:
   - ''
   Game:
   - '1'
-  - TAB
+  - ESCAPE
   - Q
   - W
   - E
@@ -331,7 +331,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - L CLK
+  - R CLK
   - Mid CLK
   - L CLK
   - {t: ▽, type: trans}
@@ -353,11 +353,11 @@ combos:
   l: [Base]
 - p: [38, 39]
   k: L_BASE L_EXTRA
-- p: [16, 15]
+- p: [28, 27]
   k: L CLK
-- p: [14, 15]
+- p: [26, 25]
   k: Mid CLK
-- p: [14, 13]
+- p: [26, 27]
   k: R CLK
 - p: [19, 20]
   k: LEFT ALT
