@@ -38,7 +38,7 @@ layers:
   - /
   - {t: Xtra, h: sticky}
   - {t: ESCAPE, h: LEFT WIN}
-  - Num
+  - {t: LEFT WIN, h: Num}
   - {t: SPACE, h: LEFT SHIFT}
   - {t: ENTER, h: sybol}
   - BSPC
@@ -163,7 +163,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -224,7 +224,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - '2'
-  - LCTRL
+  - LSHFT
   - A
   - S
   - D
@@ -236,8 +236,8 @@ layers:
   - ''
   - ''
   - '3'
-  - LSHFT
-  - Y
+  - LEFT CONTROL
+  - Z
   - X
   - C
   - V
@@ -247,9 +247,9 @@ layers:
   - ''
   - ''
   - ''
-  - LALT
-  - SPACE
+  - G
   - M
+  - SPACE
   - ''
   - ''
   Scroll:
