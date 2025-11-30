@@ -360,4 +360,4 @@ combos:
 - p: [14, 13]
   k: R CLK
 - p: [19, 20]
-  k: RIGHT ALT
+  k: LEFT ALT
