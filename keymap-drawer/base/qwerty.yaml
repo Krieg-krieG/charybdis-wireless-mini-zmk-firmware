@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - LSHIFT
+  - {t: Game, h: toggle}
   - Z
   - X
   - C
@@ -37,10 +37,10 @@ layers:
   - .
   - /
   - {t: Xtra, h: sticky}
-  - {t: ESCAPE, h: LEFT CONTROL}
+  - {t: ESCAPE, h: LEFT WIN}
   - Num
   - {t: SPACE, h: LEFT SHIFT}
-  - {t: ENTER, h: Game}
+  - {t: ENTER, h: sybol}
   - BSPC
   Num:
   - TAB
@@ -79,11 +79,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Nav:
   - ''
   - WHEEL L
@@ -126,7 +126,7 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  Game:
+  sybol:
   - '1'
   - TAB
   - Q
@@ -138,7 +138,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - BACK SPACE
   - '2'
   - LCTRL
   - A
@@ -147,7 +147,7 @@ layers:
   - ':'
   - '-'
   - '='
-  - ''
+  - /
   - ''
   - ''
   - ''
@@ -157,17 +157,17 @@ layers:
   - '['
   - ']'
   - '?'
+  - _
+  - '&'
   - ''
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - SPACE
-  - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   Xtra:
   - ZMK Studio
   - ''
@@ -210,48 +210,48 @@ layers:
   - ''
   - ''
   - ''
-  Slow:
+  Game:
+  - '1'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - {t: Base, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '2'
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '3'
+  - LSHFT
+  - Y
+  - X
+  - C
+  - V
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LALT
+  - SPACE
+  - M
+  - ''
+  - ''
   Scroll:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
