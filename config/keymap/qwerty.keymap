@@ -309,17 +309,17 @@
 
         combo_left_click {
             bindings = <&mkp LCLK>;
-            key-positions = <16 15>;
+            key-positions = <28 27>;
         };
 
         combo_middle_click {
             bindings = <&mkp MCLK>;
-            key-positions = <14 15>;
+            key-positions = <26 25>;
         };
 
         combo_right_click {
             bindings = <&mkp RCLK>;
-            key-positions = <14 13>;
+            key-positions = <26 27>;
         };
 
         alt {
@@ -389,10 +389,10 @@
         GAME {
             display-name = "Game";
             bindings = <
-&kp N1  &kp TAB    &kp Q  &kp W     &kp E      &kp R    &to 0  &none  &none  &none  &none  &trans
-&kp N2  &kp LCTRL  &kp A  &kp S     &kp D      &kp F    &none  &none  &none  &none  &none  &none
-&kp N3  &kp LSHFT  &kp Y  &kp X     &kp C      &kp V    &none  &none  &none  &none  &none  &none
-                          &kp LALT  &kp SPACE  &kp M    &none  &none
+&kp N1  &kp ESCAPE  &kp Q  &kp W     &kp E      &kp R    &to 0  &none  &none  &none  &none  &trans
+&kp N2  &kp LCTRL   &kp A  &kp S     &kp D      &kp F    &none  &none  &none  &none  &none  &none
+&kp N3  &kp LSHFT   &kp Y  &kp X     &kp C      &kp V    &none  &none  &none  &none  &none  &none
+                           &kp LALT  &kp SPACE  &kp M    &none  &none
             >;
         };
 
@@ -411,7 +411,7 @@
 &trans  &trans  &trans  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                        &mkp LCLK  &mkp MCLK  &mkp LCLK    &trans  &trans
+                        &mkp RCLK  &mkp MCLK  &mkp LCLK    &trans  &trans
             >;
         };
     };
