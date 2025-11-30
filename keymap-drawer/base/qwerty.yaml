@@ -37,8 +37,8 @@ layers:
   - .
   - /
   - {t: Xtra, h: sticky}
-  - {t: ESCAPE, h: LEFT WIN}
-  - {t: LEFT WIN, h: Num}
+  - LEFT WIN
+  - {t: ESCAPE, h: Num}
   - {t: SPACE, h: LEFT SHIFT}
   - {t: ENTER, h: sybol}
   - BSPC
