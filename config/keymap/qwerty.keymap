@@ -323,7 +323,7 @@
         };
 
         alt {
-            bindings = <&kp RIGHT_ALT>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <19 20>;
         };
     };
