@@ -326,6 +326,11 @@
             bindings = <&kp LEFT_ALT>;
             key-positions = <19 20>;
         };
+
+        laer_scrol {
+            bindings = <&mo 7>;
+            key-positions = <31 32>;
+        };
     };
 
     keymap {
