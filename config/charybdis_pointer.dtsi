@@ -17,7 +17,7 @@
 
     /* layer-3 slow-pointer override */
     slow_pointer: slow_pointer {
-        layers           = <3>;
+        layers           = <7>;
         input-processors = <&zip_xy_scaler 2 6>;
     };
 };
