@@ -20,7 +20,7 @@ layers:
   - F
   - G
   - H
-  - J
+  - {t: J, h: mouse}
   - K
   - L
   - ;
@@ -56,11 +56,11 @@ layers:
   - '0'
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Sft+ !
+  - '@'
+  - '#'
+  - $
+  - '%'
   - LEFT
   - DOWN ARROW
   - UP ARROW
@@ -73,16 +73,16 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - LCTRL
+  - '&'
+  - '*'
+  - (
+  - )
   - ''
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   Nav:
   - ''
@@ -314,20 +314,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
