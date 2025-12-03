@@ -362,4 +362,4 @@ combos:
 - p: [19, 20]
   k: LEFT ALT
 - p: [39, 38]
-  k: Sft+Alt+ LEFT ALT
+  k: Sft+ LALT
