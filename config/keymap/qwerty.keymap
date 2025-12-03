@@ -328,7 +328,7 @@
         };
 
         shift+alt {
-            bindings = <&kp LS(LA(LEFT_ALT))>;
+            bindings = <&kp LS(LALT)>;
             key-positions = <39 38>;
         };
     };
