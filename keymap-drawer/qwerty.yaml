@@ -55,7 +55,7 @@ layers:
   - '9'
   - '0'
   - ''
-  - ''
+  - LCTRL
   - Sft+ !
   - '@'
   - '#'
@@ -82,8 +82,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - LEFT SHIFT
   - DELETE
-  - {t: ▽, type: trans}
   Nav:
   - ''
   - WHEEL L
@@ -361,5 +361,5 @@ combos:
   k: R CLK
 - p: [19, 20]
   k: LEFT ALT
-- p: [31, 32]
-  k: mouse
+- p: [39, 38]
+  k: Sft+Alt+ LEFT ALT
