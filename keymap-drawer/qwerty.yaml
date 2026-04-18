@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - LEFT ALT
+  - LCTRL
   - LCTRL
   - A
   - S
@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - {t: Game, h: toggle}
+  - ''
   - Z
   - X
   - C
@@ -40,7 +40,7 @@ layers:
   - LEFT WIN
   - {t: ESCAPE, h: Num}
   - {t: SPACE, h: LEFT SHIFT}
-  - {t: DELETE, h: sybol}
+  - {t: ENTER, h: sybol}
   - BSPC
   Num:
   - TAB
@@ -54,13 +54,13 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ''
+  - {t: ▽, type: trans}
   - LCTRL
-  - Sft+ !
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - F11
+  - F12
+  - F8
+  - F4
+  - F5
   - LEFT
   - DOWN ARROW
   - UP ARROW
@@ -68,12 +68,12 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - LCTRL
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
   - '&'
   - '*'
   - (
@@ -126,51 +126,9 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  sybol:
-  - '1'
-  - TAB
-  - Q
-  - '{'
-  - '}'
-  - '|'
-  - '`'
-  - '~'
-  - ''
-  - ''
-  - ''
-  - BACK SPACE
-  - '2'
-  - LCTRL
-  - A
-  - (
-  - )
-  - ':'
-  - '-'
-  - '='
-  - /
-  - ''
-  - ''
-  - ''
-  - '3'
-  - LSHFT
-  - Y
-  - '['
-  - ']'
-  - '?'
-  - _
-  - '&'
-  - \
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
   Xtra:
   - ZMK Studio
-  - ''
+  - '&sys_reset'
   - ''
   - ''
   - ''
@@ -187,7 +145,7 @@ layers:
   - ''
   - ''
   - BRIGHT ▼
-  - ''
+  - OUT BLE
   - PREVIOUS
   - PLAY PAUSE
   - STOP
@@ -199,7 +157,7 @@ layers:
   - COPY
   - PASTE
   - ''
-  - ''
+  - OUT USB
   - MUTE
   - VOLUME DOWN
   - VOLUME UP
@@ -210,9 +168,51 @@ layers:
   - ''
   - ''
   - ''
+  sybol:
+  - ''
+  - TAB
+  - ''
+  - (
+  - )
+  - '~'
+  - '`'
+  - ''''
+  - '"'
+  - ''
+  - ''
+  - BACK SPACE
+  - {t: Game, h: toggle}
+  - LCTRL
+  - ''
+  - '{'
+  - '}'
+  - '|'
+  - '-'
+  - +
+  - '='
+  - \
+  - ''
+  - ''
+  - ''
+  - LSHFT
+  - ''
+  - '['
+  - ']'
+  - '&'
+  - _
+  - <
+  - '>'
+  - /
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   Game:
-  - '4'
-  - ESCAPE
+  - ESC
+  - TAB
   - Q
   - W
   - E
@@ -223,7 +223,7 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - '3'
+  - '5'
   - LSHFT
   - A
   - S
@@ -235,8 +235,8 @@ layers:
   - ''
   - ''
   - ''
-  - '2'
   - '1'
+  - LCTRL
   - Z
   - X
   - C
@@ -248,7 +248,7 @@ layers:
   - ''
   - ''
   - G
-  - M
+  - {t: M, h: GAME-2}
   - SPACE
   - ''
   - ''
@@ -336,18 +336,49 @@ layers:
   - L CLK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  GAME-2:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - I
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - J
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
-- p: [17, 18]
-  k: CAPS WORD
-  l: [Base]
-- p: [38, 39]
-  k: L_BASE L_EXTRA
-- p: [25, 26]
-  k: L CLK
-- p: [26, 27]
-  k: Mid CLK
-- p: [27, 28]
-  k: R CLK
 - p: [17, 18]
   k: CAPS WORD
   l: [Base]
@@ -367,5 +398,5 @@ combos:
   k: Mid CLK
 - p: [32, 33]
   k: R CLK
-- p: [40, 37]
-  k: LCTRL
+- p: [10, 11]
+  k: {t: Base, h: toggle}
