@@ -319,11 +319,6 @@
             key-positions = <19 20>;
         };
 
-        shift+alt {
-            bindings = <&kp KP_ENTER>;
-            key-positions = <39 38>;
-        };
-
         combo_left_click_two {
             bindings = <&mkp LCLK>;
             key-positions = <31 32>;
@@ -401,10 +396,10 @@
         GAME {
             display-name = "Game";
             bindings = <
-&kp ESC  &kp TAB    &kp Q  &kp W  &kp E    &kp R        &to 0  &none  &none  &none  &none  &trans
-&kp N5   &kp LSHFT  &kp A  &kp S  &kp D    &kp F        &none  &none  &none  &none  &none  &none
-&kp N1   &kp LCTRL  &kp Z  &kp X  &kp C    &kp V        &none  &none  &none  &none  &none  &none
-                           &kp G  &lt 8 M  &kp SPACE    &none  &none
+&kp ESC  &kp TAB    &kp Q  &kp W  &kp E  &kp R        &to 0  &none  &none  &none  &none  &trans
+&kp N5   &kp LSHFT  &kp A  &kp S  &kp D  &kp F        &none  &none  &none  &none  &none  &none
+&kp N1   &kp LCTRL  &kp Z  &kp X  &kp C  &kp V        &none  &none  &none  &none  &none  &none
+                           &kp G  &sl 8  &kp SPACE    &none  &none
             >;
         };
 
